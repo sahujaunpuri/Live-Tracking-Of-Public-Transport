@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:padding="25dp">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="158dp"
+        android:src="@drawable/login"
+        android:scaleType="centerInside"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="username"
+            android:inputType="textEmailAddress"
+            android:id="@+id/xmllemail"
+            />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:id="@+id/xmllpass"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:id="@+id/xmllbtn"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_rnd"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="left"
+        android:text="Are you new?"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rnd"
+        android:onClick="gotoreg"
+        android:text="signup"
+        android:layout_gravity="right"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+
+        />
+
+</LinearLayout>

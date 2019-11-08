@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "965238177211",
+    "firebase_url": "https://traial-258123.firebaseio.com",
+    "project_id": "traial-258123",
+    "storage_bucket": "traial-258123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965238177211:android:b14c69ce7196bdd16f589e",
+        "android_client_info": {
+          "package_name": "com.example.admin.trial13"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965238177211-4i9vjhpk16e1a7eomuqkfvi93rooa9so.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.trial13",
+            "certificate_hash": "6eb4293006f118eebc5bffeac7b0dd0024988f67"
+          }
+        },
+        {
+          "client_id": "965238177211-29ia0k27omn85apmvltq96jic9u23g4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ3p2eTDKLTUlQskI9iNa4Uv4PGpRs33M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965238177211-29ia0k27omn85apmvltq96jic9u23g4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addStops"
+    android:padding="25dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter stop"
+        android:id="@+id/stopname"
+        android:layout_marginTop="200dp"
+        android:inputType="text"
+        android:textSize="22dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter latitude"
+        android:id="@+id/stoplat"
+        android:inputType="text"
+        android:textSize="22dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter longitude"
+        android:id="@+id/stoplng"
+        android:inputType="text"
+        android:textSize="22dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="add stop"
+        android:onClick="addtofirebase"
+        android:textSize="22dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#ffffff"
+        />
+
+
+</LinearLayout>
